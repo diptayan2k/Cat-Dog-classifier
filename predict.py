@@ -22,8 +22,8 @@ def load_image(img_path, show=True):
 '''for img in glob.glob("test*.jpg"):
     new_image = load_image(img)
     pred = classifier.predict(new_image)
-    if pred<.5 : print("chat")
-    else : print("not chat")'''
+    if pred<.5 : print("cat")
+    else : print("dog")'''
 
 new_image = load_image("image_path.jpg")
 pred= classifier.predict(new_image)
