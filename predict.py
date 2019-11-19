@@ -25,7 +25,7 @@ def load_image(img_path, show=True):
     if pred<.5 : print("chat")
     else : print("not chat")'''
 
-new_image = load_image("C:/Users/DIPTAYAN BISWAS/Desktop/1.jpg")
+new_image = load_image("image_path.jpg")
 pred= classifier.predict(new_image)
 
 if pred<.5 : print("Cat")
